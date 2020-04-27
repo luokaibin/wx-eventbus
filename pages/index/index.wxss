@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  font-size: 30rpx;
+  height: 120rpx;
+  background-color: #e8e8e8;
+  color: #333;
+  display: flex;
+}
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.right {
+  height: 100%;
+  width: 60rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.right .icon::before {
+  content: '\2228';
+  font-size: 50rpx;
+  display: flex;
+  color: #666;
+  justify-content: flex-start;
+  align-items: center;
+  transform: rotateZ(-90deg);
+}

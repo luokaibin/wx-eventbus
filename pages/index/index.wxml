@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="item">
+    <view class="left">
+      <view class="tags">标签|标签|标签</view>
+      <view class="time">2020-04-27</view>
+    </view>
+    <view class="right">
+      <view class="icon"></view>
+    </view>
+  </view>
+</view>

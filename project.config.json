@@ -1,0 +1,149 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.4",
+	"appid": "wx27ddceb8296c2384",
+	"projectname": "wx-eventbus",
+	"cloudfunctionTemplateRoot": "",
+	"watchOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "问题咨询",
+					"pathName": "pages/message/issueDetails/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/hospitalNews/index",
+					"pathName": "pages/hospitalNews/index",
+					"query": "articleId=205",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "简化病历",
+					"pathName": "outPatient/pages/onlineDoctor/caseData/caseData",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "outPatient/pages/onlineDoctor/onlineOutPatient/onlineOutPatient",
+					"pathName": "outPatient/pages/onlineDoctor/onlineOutPatient/onlineOutPatient",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "outPatient/pages/onlineDoctor/onlineOutPatient/onlineOutPatient",
+					"pathName": "outPatient/pages/onlineDoctor/onlineOutPatient/onlineOutPatient",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "netWorkOutPatient/pages/searchAll/searchAll",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "医生列表",
+					"pathName": "netWorkOutPatient/pages/onlineOutPatient/onlineOutPatient",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "二维码",
+					"pathName": "remoteConsultation/pages/consulation/consulationEnd/consulationEnd",
+					"query": "orderId=140108",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/hospitalDetail/srNode/srHospitalDetail",
+					"pathName": "pages/hospitalDetail/srNode/srHospitalDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "case",
+					"pathName": "furtherConsultation/pages/newCaseData/newCaseData",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "doctor列表",
+					"pathName": "furtherConsultation/pages/onlineOutPatient/onlineOutPatient",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
