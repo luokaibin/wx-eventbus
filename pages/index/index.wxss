@@ -7,7 +7,7 @@
   padding-left: 20rpx;
   font-size: 30rpx;
   height: 120rpx;
-  background-color: #f7f7f7;
+  background-color: #e7e7e7;
   color: #333;
   display: flex;
 }
