@@ -1,8 +1,8 @@
 <view class="container">
-  <view class="item">
+  <view class="item" bindtap="jump">
     <view class="left">
-      <view class="tags">标签|标签|标签</view>
-      <view class="time">2020-04-27</view>
+      <view class="tags">女为悦己者容，男为悦己者穷!</view>
+      <view class="time">2020-04-28</view>
     </view>
     <view class="right">
       <view class="icon"></view>

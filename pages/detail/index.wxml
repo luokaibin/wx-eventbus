@@ -1,0 +1,4 @@
+<view class="page">
+  <Tags />
+  <text-area />
+</view>

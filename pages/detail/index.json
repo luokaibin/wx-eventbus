@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Tags": "/components/tags/index",
+    "text-area": "/components/textarea/index"
+  }
+}

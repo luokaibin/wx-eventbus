@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="label">Tags</view>
+  <view class="tags">
+    <view
+      class="tag"
+      wx:for="{{tags}}"
+      wx:key="index"
+      bindtap="clickTag"
+      data-tag="{{item}}">{{item}}</view>
+  </view>
+</view>

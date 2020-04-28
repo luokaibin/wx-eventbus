@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0 20rpx 20rpx 20rpx;
+  background-color: #ffffff;
+  color: #333;
+}
+.label {
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+  border-bottom: 1px solid #e8e8e8;
+}
+.textarea {
+  margin-top: 15rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15rpx;
+  /* border: 1px solid #e8e8e8; */
+  border-radius: 8rpx;
+  font-size: 30rpx;
+}
