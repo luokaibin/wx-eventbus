@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="icon">
+    <text class="~iconfont ~{{menu.icon}} iconsize" style="color: {{menu.color}}"></text>
+  </view>
+  <view class="text">{{menu.text}}</view>
+</view>

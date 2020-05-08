@@ -1,35 +1,65 @@
-.container {
-  display: flex;
-  flex-direction: column;
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e8e8e8;
 }
-.item {
+.user-header,.item {
+  height: 150rpx;
   box-sizing: border-box;
-  padding-left: 20rpx;
-  font-size: 30rpx;
-  height: 120rpx;
-  background-color: #e7e7e7;
-  color: #333;
+  background-color: #ffffff;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
 }
-.left {
+.head-portrait {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+}
+.info,.item>.text {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  font-size: 30rpx;
+  color: #666;
+  margin: 0 20rpx;
 }
-.right {
-  height: 100%;
-  width: 60rpx;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+.info .nickname {
+  font-size: 40rpx;
+  color: #333;
 }
-.right .icon::before {
+.more::after {
   content: '\2228';
   font-size: 45rpx;
   display: flex;
-  color: #666;
+  color: #999;
   justify-content: flex-start;
   align-items: center;
   transform: rotateZ(-90deg);
 }
+.icon-menu {
+  margin-top: 20rpx;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.list-menu {
+  margin-top: 20rpx;
+}
+.item {
+  padding: 0 3prpx;
+  height: 100rpx;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+
+
+
+
+
+
+
+

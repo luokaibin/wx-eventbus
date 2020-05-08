@@ -1,11 +1,20 @@
-<view class="container">
-  <view class="item" bindtap="jump">
-    <view class="left">
-      <view class="tags">女为悦己者容，男为悦己者穷!</view>
-      <view class="time">2020-04-28</view>
+<view class="page">
+  <view class="user-header" bindtap="jump">
+    <image class="head-portrait" src="https://static.jindll.com/notes/1"></image>
+    <view class="info">
+      <text class="nickname">胖大人本胖</text>
+      <text class="text" space="ensp">添加公司 @ 添加职位</text>
     </view>
-    <view class="right">
-      <view class="icon"></view>
+    <view class="more"></view>
+  </view>
+  <view class="icon-menu">
+    <icon-menu-item wx:for="{{iconMenu}}" wx:key="text" menu="{{item}}"/>
+  </view>
+  <view class="list-menu">
+    <view class="item" wx:for="{{listMenu}}" wx:key="text">
+      <text class="iconfont {{item.icon}}"></text>
+      <text class="text">{{item.text}}</text>
+      <text class="more"></text>
     </view>
   </view>
 </view>

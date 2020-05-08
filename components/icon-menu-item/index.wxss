@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 130rpx;
+  height: 130rpx;
+}
+.icon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding-bottom: 12rpx;
+}
+.iconsize {
+  font-size: 50rpx;
+}
+.text {
+  font-size: 30rpx;
+  height: 50rpx;
+  text-align: center;
+  color: #666666;
+}

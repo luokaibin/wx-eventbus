@@ -1,9 +1,0 @@
-<view class="container">
-  <view class="label">内容</view>
-  <textarea
-    class="textarea"
-    placeholder="请输入内容。。。"
-    value="{{value}}"
-    show-confirm-bar="{{false}}"
-    bindinput="handleInput"></textarea>
-</view>

@@ -1,4 +1,6 @@
 {
-  "navigationBarTitleText": "列表",
-  "usingComponents": {}
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "icon-menu-item": "/components/icon-menu-item/index"
+  }
 }
