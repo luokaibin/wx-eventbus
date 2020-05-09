@@ -8,10 +8,10 @@
     <view class="more"></view>
   </view>
   <view class="icon-menu">
-    <icon-menu-item wx:for="{{iconMenu}}" wx:key="text" menu="{{item}}"/>
+    <icon-menu-item wx:for="{{iconMenu}}" wx:key="text" menu="{{item}}" data-id="{{item.id}}" bindtap="jump"/>
   </view>
   <view class="list-menu">
-    <view class="item" wx:for="{{listMenu}}" wx:key="text">
+    <view class="item" wx:for="{{listMenu}}" wx:key="text" data-id="{{item.id}}" bindtap="jump">
       <text class="iconfont {{item.icon}}"></text>
       <text class="text">{{item.text}}</text>
       <text class="more"></text>

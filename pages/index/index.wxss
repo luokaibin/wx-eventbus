@@ -31,7 +31,7 @@
 }
 .more::after {
   content: '\2228';
-  font-size: 45rpx;
+  font-size: 35rpx;
   display: flex;
   color: #999;
   justify-content: flex-start;
